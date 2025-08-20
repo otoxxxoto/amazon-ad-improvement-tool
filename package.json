@@ -1,0 +1,30 @@
+{
+  "name": "ad-insight-tool",
+  "version": "1.0.0",
+  "description": "Amazon広告の改善提案ツール（検索語句分析・キーワード提案・パフォーマンス学習）",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Amazon Ads",
+    "Keepa",
+    "ACOS",
+    "ROAS",
+    "改善提案"
+  ],
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "mongoose": "^7.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
